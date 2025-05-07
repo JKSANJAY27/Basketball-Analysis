@@ -25,8 +25,6 @@ class TeamBallControlDrawer:
         team_ball_control = self.get_team_ball_control(player_assignment, ball_acquisition)
         output_video_frames = []
         for frame_num, frame in enumerate(video_frames):
-            if frame_num == 0:
-                continue
             frame_drawn = self.draw_frame(frame, frame_num, team_ball_control)
             output_video_frames.append(frame_drawn)
         return output_video_frames
