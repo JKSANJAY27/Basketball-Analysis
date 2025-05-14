@@ -4,7 +4,7 @@ import cv2
 from .homography import Homography
 import sys
 sys.path.append("../")
-from utils import measure_distance, get_foot_position
+from utils.bbox_utils import measure_distance, get_foot_position
 
 class TacticalViewConverter:
     def __init__(self, court_image_path):
