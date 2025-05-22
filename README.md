@@ -1,5 +1,7 @@
 # 🏀 Basketball Video Analysis
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/JKSANJAY27/Basketball-Analysis)
+
 Analyze basketball footage with automated detection of players, ball, team assignment, and more. This project provides a fully annotated basketball game experience by integrating object tracking, zero-shot classification, and custom keypoint detection.
 
 Built on top of Roboflow for dataset management and Ultralytics YOLO for training and inference, the framework is modular, efficient, and designed for easy experimentation.
